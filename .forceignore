@@ -1,23 +1,22 @@
-# List files or directories below to ignore them when running force:source:push, force:source:pull, and force:source:status
-# More information: https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_exclude_source.htm
+
 #
-
-package.xml
-**.profile-meta.xml
+.gitignore
+# List files or directories below to ignore them when running force:source:push, force:source:pull, and force:source:status
 **.settings-meta.xml
-**README.md
-**/jsconfig.json
+.vscode
+.husky
+# More information: https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_exclude_source.htm
 **/.dummyFile
-**/.dummyFileTest
 **/.AGFile
-**/.eslintrc.json
-
+.gitkeep
+.localdevserver/
+package.xml
+**/jsconfig.json
+deploy-options.json
+**/.dummyFileTest
 .sf/
 .sfdx/
-.localdevserver/
-deploy-options.json
-.husky
-.vscode
 .copado/
-.gitignore
-.gitkeep
+**/.eslintrc.json
+**.profile-meta.xml
+**README.md
