@@ -1,2 +1,3 @@
-**/classes/**
-**/triggers/**
+**/classes/*.cls
+**/pages/*.page
+**/*.layout-meta.xml

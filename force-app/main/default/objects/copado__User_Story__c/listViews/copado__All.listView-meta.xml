@@ -6,9 +6,15 @@
     <columns>RECORDTYPE</columns>
     <columns>copado__User_Story_Title__c</columns>
     <columns>copado__Status__c</columns>
-    <columns>copado__Environment__c</columns>
+    <columns>copado__Sprint__c</columns>
+    <columns>copado__Org_Credential__c</columns>
     <columns>copado__Latest_Commit_Date__c</columns>
     <columns>copado__Last_Promotion_Date__c</columns>
     <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>copado__User_Story__c.copado__User_Story</value>
+    </filters>
     <label>All</label>
 </ListView>

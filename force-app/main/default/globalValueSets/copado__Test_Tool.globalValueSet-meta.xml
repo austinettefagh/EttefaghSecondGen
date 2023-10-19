@@ -20,6 +20,11 @@
         <default>false</default>
         <label>metadata-report-hs</label>
     </customValue>
+    <customValue>
+        <fullName>Apex Tests</fullName>
+        <default>false</default>
+        <label>Apex Tests</label>
+    </customValue>
     <masterLabel>Copado Test Tool</masterLabel>
     <sorted>false</sorted>
 </GlobalValueSet>
