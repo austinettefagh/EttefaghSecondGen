@@ -234,7 +234,7 @@
     <dashboardType>SpecifiedUser</dashboardType>
     <description>Dashboard to view the different tests with their progress, status and much more.</description>
     <isGridLayout>true</isGridLayout>
-    <runningUser>aettefaghexpress@copado.com</runningUser>
+    <runningUser>nlarrabee+wasabi@copado.com</runningUser>
     <textColor>#000000</textColor>
     <title>Test Management Dashboard</title>
     <titleColor>#000000</titleColor>

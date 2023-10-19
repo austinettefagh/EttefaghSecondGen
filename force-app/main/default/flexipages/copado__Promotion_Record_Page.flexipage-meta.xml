@@ -55,13 +55,13 @@
                             </visibilityRule>
                         </valueListItems>
                         <valueListItems>
+                            <value>Clone</value>
+                        </valueListItems>
+                        <valueListItems>
                             <value>copado__Promotion__c.copado__Merge_Changes</value>
                         </valueListItems>
                         <valueListItems>
                             <value>copado__Promotion__c.copado__Deploy_Changes</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>Clone</value>
                         </valueListItems>
                         <valueListItems>
                             <value>copado__Promotion__c.copado__Merge_Deploy</value>

@@ -292,8 +292,11 @@
                     <name>noJobTitle</name>
                     <value>{!$Label.copado__Promotion_Job_Execution_Not_Started_Title}</value>
                 </componentInstanceProperties>
-                <componentName>copado:resultMonitor</componentName>
-                <identifier>c_resultMonitor</identifier>
+                <componentInstanceProperties>
+                    <name>recordId</name>
+                </componentInstanceProperties>
+                <componentName>copado:enhancedResultViewer</componentName>
+                <identifier>copado_enhancedResultViewer</identifier>
                 <visibilityRule>
                     <booleanFilter>1 AND 2</booleanFilter>
                     <criteria>
@@ -322,8 +325,11 @@
                     <name>noJobTitle</name>
                     <value>{!$Label.copado__Deployment_Job_Execution_Not_Started_Title}</value>
                 </componentInstanceProperties>
-                <componentName>copado:resultMonitor</componentName>
-                <identifier>c_resultMonitor2</identifier>
+                <componentInstanceProperties>
+                    <name>recordId</name>
+                </componentInstanceProperties>
+                <componentName>copado:enhancedResultViewer</componentName>
+                <identifier>copado_enhancedResultViewer2</identifier>
                 <visibilityRule>
                     <booleanFilter>1 AND 2</booleanFilter>
                     <criteria>
