@@ -100,7 +100,7 @@
                                 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Resource.SLDS,'/assets/icons/utility-sprite/svg/symbols.svg#announcement')}"></use>
                             </svg>
                         </span>
-                        <a href="https://success.copado.com/s/group/0F97R0000005EJTCAU/new-rollback-feedback">
+                        <a href="https://success.copado.com/s/group/0F9Hr000000PiJTCAU/new-rollback-feedback">
                             <span class="slds-text-heading_small">{!$Label.copado__Feedback}</span>
                         </a>
                     </div>

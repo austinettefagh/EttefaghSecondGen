@@ -128,8 +128,8 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>User_Story_Record_Page_ALT</content>
+        <comment>Action override updated by Lightning App Builder during activation.</comment>
+        <content>User_Story_Record_Page_c1e1</content>
         <formFactor>Large</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
@@ -180,8 +180,13 @@
         <customTabListAdditionalFields>copado__Epic__c</customTabListAdditionalFields>
         <customTabListAdditionalFields>copado__Theme__c</customTabListAdditionalFields>
         <customTabListAdditionalFields>copado__Project__c</customTabListAdditionalFields>
-        <listViewButtons>copado__Assign_to_Release</listViewButtons>
-        <listViewButtons>copado__Import_to_User_Story</listViewButtons>
+        <excludedStandardButtons>OpenListInQuip</excludedStandardButtons>
+        <excludedStandardButtons>NewFromDocument</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>Import</excludedStandardButtons>
+        <excludedStandardButtons>MassChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>PrintableListView</excludedStandardButtons>
         <listViewButtons>copado__Create_Bundle</listViewButtons>
         <lookupDialogsAdditionalFields>copado__User_Story_Title__c</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>copado__userStory_Role__c</lookupDialogsAdditionalFields>
